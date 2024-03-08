@@ -18,7 +18,7 @@ Clone the repository from: https://github.com/tohfas/Personal_Dashboard
 
 bash
 Copy code
-git clone https://github.com/your-username/your-project.git
+git clone [https://github.com/your-username/your-project].git
 cd your-project
 
 Install dependencies:
