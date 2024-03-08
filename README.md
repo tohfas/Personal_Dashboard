@@ -14,7 +14,7 @@ Copy code
 # Node.js and npm
 
 Installation
-Clone the repository:
+Clone the repository from: https://github.com/tohfas/Personal_Dashboard
 
 bash
 Copy code
