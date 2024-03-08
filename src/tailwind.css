@@ -1,0 +1,79 @@
+/* tailwind.css or App.css */
+
+/* Import Tailwind CSS base, components, and utilities */
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import './tailwind.css';
+
+/* tailwind.css or App.css */
+
+/* Set the background color for the entire screen */
+body {
+    background-color: #aee5f7; /* light blue background */
+    color: #b4d0f2; /* black text */
+}
+
+/* Style the buttons with an orange color */
+.button {
+    background-color: #ff9900; /* orange background */
+    color: #f55d16; /* white text */
+    padding: 8px 16px; /* adjust padding as needed */
+    border-radius: 4px; /* adjust border radius as needed */
+}
+
+/* Add styling for card sections */
+.card {
+    background-color: #fff; /* white background */
+    padding: 16px; /* adjust padding as needed */
+    margin: 16px 0; /* adjust margin as needed */
+    border-radius: 8px; /* adjust border radius as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* add shadow */
+}
+
+/* Apply styling to each specific section */
+.news-section,
+.weather-section,
+.todo-section {
+    margin-bottom: 16px; /* Add margin-bottom for spacing */
+}
+
+/* Add specific styling for the To-Do section */
+.todo-section {
+    color: #000; /* black text */
+}
+
+/* Apply styling to headlines or titles */
+h1, h2, h3, h4, h5, h6 {
+    color: #000; /* black text */
+}
+
+/* Add specific styling for the Weather section */
+.weather-section {
+    color: #000; /* black text */
+}
+
+/* Style specific elements inside the Weather section */
+.weather-section [data-cityName],
+.weather-section [data-weatherDesc],
+.weather-section [data-temp],
+.weather-section [data-windspeed],
+.weather-section [data-humidity],
+.weather-section [data-cloudiness] {
+    color: #000; /* black text */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .card {
+        padding: 12px; /* Adjust padding for smaller screens */
+    }
+
+    .button {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    /* Add more responsive styles as needed */
+}
