@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tohfas/Personal_Dashboard/static/css/main.b0ab71d0.css",
+    "main.js": "/tohfas/Personal_Dashboard/static/js/main.27548265.js",
+    "static/js/453.96811671.chunk.js": "/tohfas/Personal_Dashboard/static/js/453.96811671.chunk.js",
+    "index.html": "/tohfas/Personal_Dashboard/index.html",
+    "main.b0ab71d0.css.map": "/tohfas/Personal_Dashboard/static/css/main.b0ab71d0.css.map",
+    "main.27548265.js.map": "/tohfas/Personal_Dashboard/static/js/main.27548265.js.map",
+    "453.96811671.chunk.js.map": "/tohfas/Personal_Dashboard/static/js/453.96811671.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0ab71d0.css",
+    "static/js/main.27548265.js"
+  ]
+}
